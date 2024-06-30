@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      *,
+      html {
+        padding: 0;
+        margin: 0;
+      }
+      body {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin: 20px 0;
+      }
+      .cv {
+        padding: 40px;
+        max-width: 800px;
+        text-align: justify;
+      }
+      .header {
+        text-align: center;
+        margin-bottom: 100px;
+      }
+      h1 {
+        font-size: 42px;
+      }
+      h2 {
+        margin: 40px 0 10px 0;
+      }
+      h3 {
+        margin: 10px 0 5px 0;
+      }
+      h4 {
+        margin: 0 0 0 5px;
+      }
+      p {
+        margin: 5px 0 0 10px;
+      }
+      li {
+        margin: 5px 0 0 30px;
+      }
+      #copyButton {
+        cursor: pointer;
+        font-size: 50px;
+        padding: 20px;
+        border-radius: 5px;
+        border: none;
+        background-color: #007ced;
+        color: whitesmoke;
+        margin-bottom: 100px;
+      }
+      #copyButton:active {
+        font-size: 55px;
+        background-color: gray;
+        animation: all 1s ease-in-out;
+      }
+      #copyButton:hover {
+        background-color: #004cef;
+      }
+    </style>
+  </head>
+  <body>
+    <button id="copyButton">Copy Source Code</button>
+    <div class="cv">
+      <div class="header">
+        <h1>Elsa Khairunisa</h1>
+        <p>elsakhairunisa77@gmail.com | +628710247032 | Pamulang, Tangerang Selatan</p>
+      </div>
+
+      <h2>Deskripsi Diri</h2>
+      <hr />
+      <p>Sebagai mahasiswa aktif di Semester 4 Teknik Informatika, saya memiliki kemampuan dalam desain produk, pengeditan foto dan video, serta mengelola dokumen menggunakan Microsoft Word.</p>
+
+      <h2>Pengalaman kerja</h2>
+      <hr />
+      <h3>Beantown Coffe And Roastery (Januari 2023 - April 2024)</h3>
+      <h4>Kasir</h4>
+      <ul>
+        <li>Melakukan Upselling.</li>
+        <li>Bertanggung jawab atas stock opname.</li>
+        <li>Menggunakan POS moka & ESB.</li>
+        <li>Menjaga kebersihan area caffe.</li>
+      </ul>
+      <h3>Dum-Dum Thai Drinks Teras Kota (7 Juli - 1 September 2022)</h3>
+      <h4>Barista & Kasir</h4>
+      <ul>
+        <li>Membuat berbagai macam minuman sesuai menu.</li>
+        <li>Melakukan stock opname manual.</li>
+        <li>Menggunakan sistem POS kasir.</li>
+      </ul>
+      <h3>Percetakan Ganesha Offset (14 Juni - 31 Juli 2021)</h3>
+      <h4>Designer & Finishing</h4>
+      <ul>
+        <li>Mendesain berbagai jenis produk, termasuk box makanan, label, banner, dan kartu nama.</li>
+        <li>Bertanggung jawab atas proses finishing produk.</li>
+      </ul>
+
+      <h2>Pendidikan</h2>
+      <hr />
+      <h3>Universitas Pamulang (2022 - Sekarang)</h3>
+      <h4>S1 Teknik Informatika</h4>
+      <h3>SMK Muhammadiyah Parakan (2019 - 2022)</h3>
+      <h4>Multimedia</h4>
+
+      <h2>Keterampilan</h2>
+      <hr />
+      <ul>
+        <li>
+          <b>Design Grafis : </b>
+          <p>Kemampuan dalam merancang dan menghasilkan materi visual, seperti poster, brosur, dan logo.</p>
+        </li>
+        <li>
+          <b>Microsoft Office : </b>
+          <p>Keterampilan dalam mengelola dokumen menggunakan aplikasi seperti Word, Excel, dan PowerPoint.</p>
+        </li>
+        <li>
+          <b>Manajemen Waktu : </b>
+          <p>Kemampuan untuk mengatur dan memanfaatkan waktu secara efisien.</p>
+        </li>
+        <li>
+          <b>Bekerjasama dengan Tim, Komunikatif, dan Kolaborasi : </b>
+          <p>Keterampilan dalam berinteraksi dengan rekan kerja, berkomunikasi dengan baik, dan bekerja sama dalam tim.</p>
+        </li>
+      </ul>
+    </div>
+    <script>
+      const scripts = `<!DOCTYPE html>
+  <html lang="en">
+    <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Document</title>
+      <style>
+        *,
+        html {
+          padding: 0;
+          margin: 0;
+        }
+        body {
+          display: flex;
+          justify-content: center;
+        }
+        .cv {
+          padding: 40px;
+          max-width: 800px;
+          text-align: justify;
+        }
+        .header {
+          text-align: center;
+          margin-bottom: 100px;
+        }
+        h1 {
+          font-size: 42px;
+        }
+        h2 {
+          margin: 40px 0 10px 0;
+        }
+        h3 {
+          margin: 10px 0 5px 0;
+        }
+        h4 {
+          margin: 0 0 0 5px;
+        }
+        p {
+          margin: 5px 0 0 10px;
+        }
+        li {
+          margin: 5px 0 0 30px;
+        }
+      </style>
+    </head>
+    <body>
+      <div class="cv">
+        <div class="header">
+          <h1>Elsa Khairunisa</h1>
+          <p>elsakhairunisa77@gmail.com | +628710247032 | Pamulang, Tangerang Selatan</p>
+        </div>
+  
+        <h2>Deskripsi Diri</h2>
+        <hr />
+        <p>Sebagai mahasiswa aktif di Semester 4 Teknik Informatika, saya memiliki kemampuan dalam desain produk, pengeditan foto dan video, serta mengelola dokumen menggunakan Microsoft Word.</p>
+  
+        <h2>Pengalaman kerja</h2>
+        <hr />
+        <h3>Beantown Coffe And Roastery (Januari 2023 - April 2024)</h3>
+        <h4>Kasir</h4>
+        <ul>
+          <li>Melakukan Upselling.</li>
+          <li>Bertanggung jawab atas stock opname.</li>
+          <li>Menggunakan POS moka & ESB.</li>
+          <li>Menjaga kebersihan area caffe.</li>
+        </ul>
+        <h3>Dum-Dum Thai Drinks Teras Kota (7 Juli - 1 September 2022)</h3>
+        <h4>Barista & Kasir</h4>
+        <ul>
+          <li>Membuat berbagai macam minuman sesuai menu.</li>
+          <li>Melakukan stock opname manual.</li>
+          <li>Menggunakan sistem POS kasir.</li>
+        </ul>
+        <h3>Percetakan Ganesha Offset (14 Juni - 31 Juli 2021)</h3>
+        <h4>Designer & Finishing</h4>
+        <ul>
+          <li>Mendesain berbagai jenis produk, termasuk box makanan, label, banner, dan kartu nama.</li>
+          <li>Bertanggung jawab atas proses finishing produk.</li>
+        </ul>
+  
+        <h2>Pendidikan</h2>
+        <hr />
+        <h3>Universitas Pamulang (2022 - Sekarang)</h3>
+        <h4>S1 Teknik Informatika</h4>
+        <h3>SMK Muhammadiyah Parakan (2019 - 2022)</h3>
+        <h4>Multimedia</h4>
+  
+        <h2>Keterampilan</h2>
+        <hr />
+        <ul>
+          <li>
+            <b>Design Grafis : </b>
+            <p>Kemampuan dalam merancang dan menghasilkan materi visual, seperti poster, brosur, dan logo.</p>
+          </li>
+          <li>
+            <b>Microsoft Office : </b>
+            <p>Keterampilan dalam mengelola dokumen menggunakan aplikasi seperti Word, Excel, dan PowerPoint.</p>
+          </li>
+          <li>
+            <b>Manajemen Waktu : </b>
+            <p>Kemampuan untuk mengatur dan memanfaatkan waktu secara efisien.</p>
+          </li>
+          <li>
+            <b>Bekerjasama dengan Tim, Komunikatif, dan Kolaborasi : </b>
+            <p>Keterampilan dalam berinteraksi dengan rekan kerja, berkomunikasi dengan baik, dan bekerja sama dalam tim.</p>
+          </li>
+        </ul>
+      </div>
+    </body>
+  </html>
+  `;
+
+      document.getElementById('copyButton').addEventListener('click', function () {
+        const textToCopy = scripts; // Ganti dengan teks yang ingin Anda salin
+        copyToClipboard(textToCopy);
+      });
+
+      function copyToClipboard(text) {
+        const textarea = document.createElement('textarea');
+        textarea.value = text;
+        document.body.appendChild(textarea);
+        textarea.select();
+        document.execCommand('copy');
+        document.body.removeChild(textarea);
+        alert('Teks berhasil disalin!');
+      }
+    </script>
+  </body>
+</html>
